@@ -4,15 +4,15 @@ import os
 import glob
 from scipy.signal import lfilter
 from statsmodels.regression.linear_model import yule_walker
+import pickle 
 
 # --- Configuration ---
-# Set the base directory where your patient data is stored
-base_data_dir = '/Users/umairarshad/Projects/BCI Hackathon Datasets/BR41N_Hackathon/stroke-rehab/' # !!! IMPORTANT: Update this path if needed
+base_data_dir = 'stroke-rehab/'
 epoch_start_offset_sec = 1.0
 epoch_end_offset_sec = 8.0
-ar_order = 10 # AR model order for whitening
+ar_order = 10
 
-# --- Function to process a single .mat file (from Phase 1.4) ---
+# --- Function to process a single .mat file ---
 def process_bci_file(file_path, epoch_start_offset_sec, epoch_end_offset_sec):
     """Loads BCI data, extracts epochs, returns epochs, labels, fs."""
     try:
@@ -200,6 +200,15 @@ for patient in patients:
 
 
 print("\n--- Whitening Application Complete ---")
+
+output_file = 'all_processed_data.pkl'
+print(f"\nSaving processed data to {output_file}...")
+try:
+    with open(output_file, 'wb') as f:
+        pickle.dump(all_data, f, pickle.HIGHEST_PROTOCOL)
+    print("Data saved successfully.")
+except Exception as e:
+    print(f"Error saving data: {e}")
 
 # --- Verification ---
 print(f"\nVerification:")
