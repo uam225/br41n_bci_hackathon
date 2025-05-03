@@ -1,0 +1,7 @@
+Patient,Stage,Pipeline,Data,Accuracy
+P1,pre,PCA(8)+TVLDA,epochs,77.5
+P1,post,PCA(8)+TVLDA,epochs,50.0
+P2,pre,PCA(8)+TVLDA,epochs,57.49999999999999
+P2,post,PCA(8)+TVLDA,epochs,75.0
+P3,pre,PCA(8)+TVLDA,epochs,66.25
+P3,post,PCA(8)+TVLDA,epochs,53.75
