@@ -1,0 +1,7 @@
+Patient,Stage,Pipeline,Data,Accuracy
+P1,pre,Riemannian(LR)_8-12Hz,epochs,77.5
+P1,post,Riemannian(LR)_8-12Hz,epochs,85.0
+P2,pre,Riemannian(LR)_8-12Hz,epochs,60.0
+P2,post,Riemannian(LR)_8-12Hz,epochs,81.25
+P3,pre,Riemannian(LR)_8-12Hz,epochs,80.0
+P3,post,Riemannian(LR)_8-12Hz,epochs,81.25

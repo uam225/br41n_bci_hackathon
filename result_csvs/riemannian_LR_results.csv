@@ -1,0 +1,7 @@
+Patient,Stage,Pipeline,Data,Accuracy
+P1,pre,Riemannian(LR),epochs_whitened,68.75
+P1,post,Riemannian(LR),epochs_whitened,60.0
+P2,pre,Riemannian(LR),epochs_whitened,52.5
+P2,post,Riemannian(LR),epochs_whitened,88.75
+P3,pre,Riemannian(LR),epochs_whitened,91.25
+P3,post,Riemannian(LR),epochs_whitened,80.0

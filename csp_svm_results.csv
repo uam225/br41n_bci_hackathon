@@ -1,7 +1,0 @@
-Patient,Stage,Pipeline,Data,Accuracy
-P1,pre,CSP(4)+SVM,epochs,62.5
-P1,post,CSP(4)+SVM,epochs,68.75
-P2,pre,CSP(4)+SVM,epochs,55.00000000000001
-P2,post,CSP(4)+SVM,epochs,70.0
-P3,pre,CSP(4)+SVM,epochs,68.75
-P3,post,CSP(4)+SVM,epochs,72.5

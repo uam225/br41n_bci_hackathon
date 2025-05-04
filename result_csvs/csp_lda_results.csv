@@ -1,0 +1,7 @@
+Patient,Stage,Pipeline,Data,Accuracy
+P1,pre,CSP+LDA,epochs,56.25
+P1,post,CSP+LDA,epochs,73.75
+P2,pre,CSP+LDA,epochs,48.75
+P2,post,CSP+LDA,epochs,70.0
+P3,pre,CSP+LDA,epochs,65.0
+P3,post,CSP+LDA,epochs,68.75

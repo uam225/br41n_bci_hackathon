@@ -1,0 +1,7 @@
+Patient,Stage,Pipeline,Data,Accuracy
+P1,pre,Riemannian(LR)_Band1[8-12]+Band2[13-30],epochs,91.25
+P1,post,Riemannian(LR)_Band1[8-12]+Band2[13-30],epochs,90.0
+P2,pre,Riemannian(LR)_Band1[8-12]+Band2[13-30],epochs,68.75
+P2,post,Riemannian(LR)_Band1[8-12]+Band2[13-30],epochs,100.0
+P3,pre,Riemannian(LR)_Band1[8-12]+Band2[13-30],epochs,91.25
+P3,post,Riemannian(LR)_Band1[8-12]+Band2[13-30],epochs,91.25

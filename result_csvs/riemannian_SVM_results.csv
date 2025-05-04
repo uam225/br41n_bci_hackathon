@@ -1,0 +1,7 @@
+Patient,Stage,Pipeline,Data,Accuracy
+P1,pre,Riemannian(SVM),epochs,66.25
+P1,post,Riemannian(SVM),epochs,78.75
+P2,pre,Riemannian(SVM),epochs,52.5
+P2,post,Riemannian(SVM),epochs,86.25
+P3,pre,Riemannian(SVM),epochs,82.5
+P3,post,Riemannian(SVM),epochs,81.25
