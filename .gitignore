@@ -1,4 +1,22 @@
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS and Windows metadata
+.DS_Store
+Thumbs.db
+
+# Raw EEG datasets and large intermediate pickles
+stroke-rehab/
+*.mat
 all_processed_data.pkl
 
+# Generated plot directories
 plots/
 results/csv
